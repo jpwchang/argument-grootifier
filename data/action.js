@@ -25,9 +25,9 @@ function process(txtNode) {
 	val = val.replace(/\bthe Cloud\b/g, "my Butt");
 	val = val.replace(/\bThe Cloud\b/g, "My Butt");
 	val = val.replace(/\bTHE CLOUD\b/g, "MY BUTT");
-	val = val.replace(/cloud\b/g, "butt");
-	val = val.replace(/Cloud\b/g, "Butt");
-	val = val.replace(/CLOUD\b/g, "BUTT");
+	val = val.replace(/cloud/g, "butt");
+	val = val.replace(/Cloud/g, "Butt");
+	val = val.replace(/CLOUD/g, "BUTT");
 	txtNode.nodeValue = val;
 }
 
