@@ -19,15 +19,22 @@ function walkDOM(node) {
 }
 
 function process(txtNode) {
+	var wordsToReplace = [
+		"faggot", "STFU", "fuck you", "fuck", "whore", "moron", "you're a moron",
+		"dick", "cock", "retarded", "you're fat", "bastard", "moronic", "QQ more",
+		"jerk", "your mom", "yo mom", "yo mama", "your mama", "Hitler", "You're a Nazi",
+		"Nazi", "fucking", "left-wing", "right-wing", "twits", "twit"
+	];
+	var groot = [
+		"I AM GROOT", "I Am Groot", "I Am Groot!", "I AM GROOT!", "I Am Groot?"
+	];
 	var val = txtNode.nodeValue;
-	val = val.replace(/\bthe cloud\b/g, "my butt");
-	val = val.replace(/\bThe cloud\b/g, "My butt");
-	val = val.replace(/\bthe Cloud\b/g, "my Butt");
-	val = val.replace(/\bThe Cloud\b/g, "My Butt");
-	val = val.replace(/\bTHE CLOUD\b/g, "MY BUTT");
-	val = val.replace(/cloud/g, "butt");
-	val = val.replace(/Cloud/g, "Butt");
-	val = val.replace(/CLOUD/g, "BUTT");
+	for (var i = 0; i < wordsToReplace.length; ++i)
+	{
+		var regex = new RegExp('\\b' + wordsToReplace[i] + '\\b', 'gi');
+		val = val.replace(regex, groot[i % groot.length]);
+		
+	}
 	txtNode.nodeValue = val;
 }
 
