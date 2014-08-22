@@ -1,2 +1,2 @@
 #Cloud-to-Butt: Firefox Edition
-This is a version of the popular *Cloud-to-Butt* Chrome extension to Mozilla Firefox.  It replaces the word "cloud" with the word "butt" on every webpage you visit.
+A fork of Cloud-To-Butt Firefox Edition (https://github.com/Andrew-William-Smith/Cloud-to-Butt-Firefox) that replaces various phrases commonly found in flame wars with variations of "I AM GROOT". Now instead of imagining the internet as filled with unreasonably angry people yelling at their scrrens, you can instead imagine it as filled with gentle tree creatures :)
