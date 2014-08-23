@@ -20,12 +20,19 @@ function walkDOM(node) {
 
 function process(txtNode) {
 	var wordsToReplace = [
-		"faggot", "STFU", "shut the fuck up", "fuck you", "fuck[a-z]*", "whore", "moron", "you're a moron",
+		"pain in the ass", "faggot", "STFU", "shut the fuck up", "fuck you", "fuck[a-z]*", "whore", "you're a moron",
 		"suck dick", "dick[a-z]*", "suck cock", "cock", "retarded", "you're fat", "bastard", "moronic",
-		"QQ more", "jerk", "your mom", "yo mom", "yo mama", "your mama", "Hitler", "You're a Nazi",
-		"Nazi", "left-wing", "right-wing", "twits", "twit", "eat shit", "shit[a-z]*",
+		"QQ more", "jerk", "your mom", "yo mom", "yo mama", "your mama", "Hitler", "You're a Nazi", "moron",
+		"Nazi", "left-wing", "right-wing", "twits", "twit", "shit eater", "eat shit", "shit[a-z]*", "bitchy",
 		"ass", "asshole", "[0-9]+ year old", "the gays", "you're gay", "shut up", "pissy", "bitch please",
-		"bitchy"
+		"alcoholic", "analphabet", "anarchist", "ass[a-z]*", "backwoodsman", "balls", "slimy bastard", "bastard",
+		"son of a bitch", "bitch", "brainless", "brainy", "bum-fucker", "butt[a-z]", "cheater", "[a-z] fucker", "clit",
+		"cock master", "cock up", "cockboy", "cockfucker", "cock", "country bumpkin", "creep", "cretin",
+		"[a-z] sucker", "cunt", "egoist", "fake", "fanny", "freak", "hippie", "homo", "idiot", "ignoramus",
+		"jack-ass", "lard face", "motherfucker", "oil dick", "pervert", "pig", "pirate", "pornofreak", "prick",
+		"prolet", "queer", "querulant", "retard", "riff-raff", "sadist", "saprophyt", "satan", "shithead",
+		"sleeze", "sleeze bag", "slimer", "beavis", "snob", "snot", "swindler", "swine", "thief", "varmit", "wanker",
+		"weeze bag", "whore", "weirdo", "wino", "witch", "womanizer", "woody allen", "xxx watcher"
 	];
 	var groot = [
 		"I AM GROOT", "I Am Groot", "I Am Groot!", "I AM GROOT!", "I Am Groot?"
